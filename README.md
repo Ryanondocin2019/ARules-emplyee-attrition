@@ -8,5 +8,6 @@ Implemented Apriori Association rules mining algorithm to analyze emplyee_attrit
 * Default ssociation rule mining algorithm was obtained for a baseline model.
 * Following this, the model underwent extensive tuning by experimenting with different hyper-parameters.
 * Finally the most significant rules which could predict “Attrition” were analyzed and discussed for those who stay vs. those who leave, respectively.
-* Heroku was used to create a UI that could display the results of the algorithm. It included sliders which represented tuneable hyperparameters and a bokeh plot graphed models output (association rules). Please see the attached movie file to investigate the results.
+* Heroku was used to create a UI that could display the most significant association rules: Support vs Confidence (shaded by lift). It contains interactive sliders which represent tuneable hyperparameters and a bokeh plot of the aforemention graphical output. Please see
+ attached movie file to investigate the results.
 
